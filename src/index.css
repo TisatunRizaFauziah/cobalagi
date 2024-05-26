@@ -1,0 +1,64 @@
+/* style.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(243, 241, 240);
+  min-height: 100vh;
+}
+
+.container-dalam {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+}
+.container-dlm {
+  background-color: rgb(243, 241, 240);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+}
+.container-dalam h1 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container-dalam img {
+  width: 150px;
+  height: 170px;
+  border-radius: 70%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.container-dalam p {
+  font-size: 16px;
+  color: black;
+  margin: 5px 0;
+}
+
+.container-dalam button {
+  background-color: peru;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container-dalam button:hover {
+  background-color: #0056b3;
+}
